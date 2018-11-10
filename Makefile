@@ -4,8 +4,3 @@ init:
 .PHONY: run
 run:
 	python ./src/main.py
-
-html:
-	cd docs
-	pydoc -w ../src/*.py
-	cd ..
